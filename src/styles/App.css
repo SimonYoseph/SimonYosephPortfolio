@@ -1,0 +1,201 @@
+body {
+  margin: 100;
+  padding: 100;
+  font-family: 'Poppins', sans-serif;
+  background-color: #0D0D0D;
+  margin: 10%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.text {
+  font-size: 10vw;
+  letter-spacing: -.01em;
+  line-height: 100%;
+  margin: 0;
+  width: 100%;
+  color: rgb(182, 182, 182, 0.2);
+  background: linear-gradient(to right, #b6b6b6, #b6b6b6) no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: 0%;
+  transition: background-size cubic-bezier(.1,.5,.5,1) 0.5s;
+  border-bottom: 1px solid #2F2B28;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+}
+
+span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #4246ce;
+  color: #0D0D0D;
+  clip-path: polygon(0 50%, 100% 50%, 100% 50%, 0 50%);
+  transform-origin: center;
+  transition: all cubic-bezier(.1,.5,.5,1) 0.4s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text:hover > span {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.tab-text-color{
+  color: white;
+}
+
+nav {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  width: 500px;
+  margin: 0 auto;
+  top: 10px;
+  background-color: rgba(255,255,255,.05);
+  border-radius: 200px;
+  z-index: 9;
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255,255,255,.06);
+  transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1) .2s;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    display: block;
+    padding: 10px 20px;
+    line-height: 1;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+    transition: .3s all cubic-bezier(0.075, 0.82, 0.165, 1) .6s;
+  }
+
+  button {
+    -webkit-appearance: none;
+    background: rgba(0,0,0,.3);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255,255,255,.1);
+    position: absolute;
+    z-index: 99;
+    left: 0;
+    margin: auto;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    transition: .3s all cubic-bezier(0.075, 0.82, 0.165, 1) 0.2s;
+    transform: scale(0);
+  }
+}
+
+/*social media icons/ designs*/
+.socialMediaIcons {
+  position: fixed;
+  bottom: 20px; /* Adjust the distance from the bottom as needed */
+  right: 20px; /* Adjust the distance from the right as needed */
+  z-index: 1000; /* Ensure the icons stay above other elements */
+}
+
+.socialMediaIcons ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.socialMediaIcons ul li {
+  margin: 0 12px; /* Adjust the spacing between icons */
+}
+
+.socialMediaIcons ul li a {
+  width: 45px; /* Adjust the width of each icon */
+  height: 45px; /* Adjust the height of each icon */
+  background-color: #fff;
+  text-align: center;
+  line-height: 45px;
+  font-size: 24px; /* Adjust the font size of the icons */
+  border-radius: 50%;
+  display: block;
+  border: 2.5px solid #fff;
+  transition: all 0.3s ease; /* Add a smooth transition effect */
+}
+
+.socialMediaIcons ul li:nth-child(1) a {
+  background: #55acee; /* Twitter color */
+}
+
+.socialMediaIcons ul li:nth-child(2) a {
+  background: #0077b5; /* LinkedIn color */
+}
+
+.socialMediaIcons ul li:nth-child(3) a {
+  background: #da2710; /* Gmail color */
+}
+
+.socialMediaIcons ul li:nth-child(4) a {
+  background: #211f1f; /* GitHub color */
+}
+
+.socialMediaIcons ul li:nth-child(5) a {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  /* Instagram color */
+}
+
+.socialMediaIcons ul li a:hover {
+  background-color: #212121; /* Change the background color on hover */
+  color: #fff; /* Change the text color on hover */
+  transform: rotate(360deg);
+}
+
+/* Add this to make the icons responsive */
+@media (max-width: 768px) {
+  .socialMediaIcons {
+    bottom: 10px;
+    right: 10px;
+  }
+
+  .socialMediaIcons ul li a {
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+    line-height: 35px;
+  }
+}
+
+footer {
+  color: black;
+  text-align: center;
+  background-color: #ffff;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
