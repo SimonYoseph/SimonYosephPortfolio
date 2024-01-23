@@ -1,16 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
-import App from './Homepage/App';
-import AboutMe from './components/AboutMe/AboutMe';
-import Contact from './components/Contact/Contact';
-import Portfolio from './components/Portfolio/Portfolio';
+import App from './components/App';
+import Homepage from './components/Homepage';
+import AboutMe from './components/AboutMe';
+import Contact from './components/Contact';
+import Portfolio from './components/Portfolio';
 
 
 ReactDOM.render(
   <Router>
     <Switch>
-      <Route path="/" component={App} />
+    <Route path="/" component={App} />
+      <Route path="/" component={Homepage} />
       <Route path="/" component={AboutMe} />
       <Route path="/" component={Contact} />
       <Route path="/" component={Portfolio} />
