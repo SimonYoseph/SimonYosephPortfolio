@@ -4,7 +4,6 @@ import '../styles/AboutMe.css';
 const AboutMe = () => {
   return (
     <div className="page">
-
       <h2>About Me</h2>
       <div className="simon-picture">
         <img src="simon-pic.jpeg" alt="Profile" />
@@ -13,5 +12,5 @@ const AboutMe = () => {
     </div>
   );
 };
-
 export default AboutMe;
+
