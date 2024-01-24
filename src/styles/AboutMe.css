@@ -5,6 +5,6 @@
   border-radius: 200%; /* Make the image round */
   object-fit: cover; /* Ensure the image covers the entire container */
 }
-.main-tabs{
+.page{
   color: white;
 }
