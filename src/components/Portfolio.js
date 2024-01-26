@@ -101,7 +101,6 @@ const Portfolio = () => {
     <li>GitHub</li>
     <li>Vercel</li>
     <li>MAC/ Windows OS</li>
-    <li>JIRA</li>
     <li>Trello</li>
     <li>PostgreSQL</li>
   </ul>
@@ -135,8 +134,8 @@ const Portfolio = () => {
     <li>Vercel</li>
     <li>MAC/ Windows OS</li>
     <li>JIRA</li>
-    <li>Trello</li>
     <li>PostgreSQL</li>
+    <li>Tailwind</li>
   </ul>
 </div>
 

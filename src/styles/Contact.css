@@ -7,20 +7,22 @@ body {
 #contact {
   margin-top: 50px;
   width: 100%;
+  text-align: center; /* Align content in the center */
 }
 
 #contact-form .form-control {
   width: 100%;
   padding: 10px;
   font-size: 16px;
-  margin-left: 15px;
+  margin: 0 auto; /* Center the input field */
 }
 
 #contact-form textarea {
   width: 100%;
   padding: 10px;
   font-size: 16px;
-  resize: vertical; /* Allow vertical resizing of the textarea */
+  resize: vertical;
+  margin: 0 auto; /* Center the textarea */
 }
 
 .section-header {
@@ -36,8 +38,8 @@ body {
 .contact-wrapper {
   margin-top: 20px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column; /* Change to column to stack items vertically */
+  align-items: center; /* Align items in the center horizontally */
   margin: 0 auto;
   padding: 20px;
   position: relative;
@@ -48,6 +50,7 @@ body {
   max-width: 400px;
   font-family: 'Lato';
   font-weight: 400;
+  margin: 0 auto; /* Center the form */
 }
 
 .form-control,
@@ -64,6 +67,7 @@ textarea {
   width: 400px;
   overflow: hidden;
   transition: all .2s ease-in-out;
+  margin: 0 auto; /* Center the button */
 }
 
 .alt-send-button {
@@ -85,37 +89,29 @@ textarea {
 
 .direct-contact-container {
   max-width: 400px;
+  margin: 0 auto; /* Center the container */
+  text-align: left; /* Align text to the left within the container */
 }
 
 .contact-list {
   list-style-type: none;
-  margin-left: 30px;
-  padding-right: 20px;
+  padding: 0;
+  display: flex; /* Use flexbox for icon alignment */
+  justify-content: flex-end; /* Align icons to the right */
 }
 
 .list-item {
   line-height: 4;
   color: #aaa;
-  border-bottom: none; /* Remove the border-bottom property */
+  border-bottom: none;
+  margin-left: 20px; /* Add margin between icons */
 }
 
-
-.contact-text {
-  font: 300 18px 'Lato', sans-serif;
-  letter-spacing: 1.9px;
-  color: #bbb;
-}
-
-.place {
-  margin-left: 62px;
-}
-
-.phone {
-  margin-left: 56px;
-}
-
+.place,
+.phone,
 .gmail {
-  margin-left: 53px;
+  margin-left: 0; /* Remove the left margin for icons */
+  text-align: right; /* Align icons to the right */
 }
 
 .contact-text a {
@@ -129,14 +125,15 @@ textarea {
   text-decoration: none;
 }
 
-
 @media screen and (max-width: 850px) {
   .contact-wrapper {
     display: flex;
     flex-direction: column;
+    align-items: center; /* Center items horizontally */
   }
 
-  .direct-contact-container, .form-horizontal {
+  .direct-contact-container,
+  .form-horizontal {
     margin: 0 auto;
   }
 
@@ -147,26 +144,19 @@ textarea {
 }
 
 @media screen and (max-width: 569px) {
-  .direct-contact-container,
-  .form-wrapper {
-    float: none;
-    margin: 0 auto;
+  .contact-list {
+    flex-direction: column; /* Stack icons vertically for smaller screens */
+    align-items: center; /* Center icons horizontally for smaller screens */
   }
 
-  .form-control,
-  textarea {
-    margin: 0 auto;
+  .list-item {
+    margin: 10px 0; /* Adjust margin for smaller screens */
   }
 
-  .name,
-  .email,
-  textarea {
-    width: 280px;
-  }
-
-  .direct-contact-container {
-    margin-top: 60px;
-    max-width: 280px;
+  .place,
+  .phone,
+  .gmail {
+    text-align: center; /* Center text for smaller screens */
   }
 }
 
