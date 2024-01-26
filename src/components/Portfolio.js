@@ -85,26 +85,29 @@ const Portfolio = () => {
           </article>
         </li>
       </ul>
-      <h1 style={{ textAlign: 'center' }} className="Travel-Trove">Travel Trove AI</h1>
+      <h1 style={{ textAlign: 'center' }} className="Travel-Trove effect-3">
+  <a href="https://github.com/SimonYoseph/travel-trove-ai" target="_blank" rel="noopener noreferrer">
+    Travel Trove AI</a></h1>
 
-<div className="scroller" data-speed="fast">
-  <ul className="tag-list scroller__inner">
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript</li>
-    <li>Node.js</li>
-    <li>MySQL</li>
-    <li>Express</li>
-    <li>Next.js</li>
-    <li>MongoDB</li>
-    <li>React</li>
-    <li>GitHub</li>
-    <li>Vercel</li>
-    <li>MAC/ Windows OS</li>
-    <li>Trello</li>
-    <li>PostgreSQL</li>
-  </ul>
-</div>
+
+          <div className="scroller" data-speed="fast">
+            <ul className="tag-list scroller__inner">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Node.js</li>
+              <li>MySQL</li>
+              <li>Express</li>
+              <li>Next.js</li>
+              <li>MongoDB</li>
+              <li>React</li>
+              <li>GitHub</li>
+              <li>Vercel</li>
+              <li>MAC/ Windows OS</li>
+              <li>Trello</li>
+              <li>PostgreSQL</li>
+            </ul>
+          </div>
 
 <div className="scroller" data-direction="right" data-speed="slow">
   
@@ -117,7 +120,10 @@ const Portfolio = () => {
 </div>
 
 
-<h1 style={{ textAlign: 'center' }} className="MyFit"> MyFit </h1>
+
+<h1 style={{ textAlign: 'center' }} className="MyFit effect-3">
+  <a href="https://my-fit-webapp.vercel.app" target="_blank" rel="noopener noreferrer">
+    MyFit</a></h1>
 
 <div className="scroller" data-speed="fast">
   <ul className="tag-list scroller__inner">
