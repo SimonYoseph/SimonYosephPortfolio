@@ -1,9 +1,78 @@
 .contact-header {
   text-transform: uppercase;
-  font: Sans-serif;
+  font-family: Sans-serif; /* Specify the font family */
   text-align: center;
   letter-spacing: 5px;
-  margin-right: 10px;
   margin-bottom: 85px;
+  margin-top: -880px;
+  font-size: 35px;
 }
+
+.social {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  text-align: center;
+  transform: translateY(-50%);
+}
+
+.social .link {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px dashed yellow;
+  background-clip: content-box;
+  padding: 10px;
+  transition: .5s;
+  color: #D7D0BE;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 70px;
+  margin-top: -500px;
+  
+}
+
+.social .link span {
+  display: block;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.social .link.gmail {
+  background-color: tomato;
+  color: white;
+  font-size: 20px; /* Adjust the font size for the text */
+  padding: 0; /* Remove padding to center the text within the icon */
+  margin-bottom: -150px;
+}
+
+.social .link:hover {
+  padding: 20px;
+  color: white;
+  margin-left: -5px;
+  transform: translateX(10px) rotate(360deg);
+  
+  
+}
+
+
+/* .social .link.twitter {
+  background-color: #00ACEE;
+  color: white;
+}
+
+.social .link.facebook {
+  background-color: #3B5998;
+  color: white;
+} */
+
+
+
+
 

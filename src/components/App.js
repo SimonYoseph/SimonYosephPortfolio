@@ -45,12 +45,13 @@ const App = () => {
         <Switch>
           <Route exact path="/Homepage" render={() => (
             <div className="container">
+              <div classname="text-align">
               <h1 className="text">I AM <span>SIMON YOSEPH,</span></h1>
               <h1 className="text">ONE WHO CREATES<span>TO EXPAND</span></h1>
               <h1 className="text">AND IMPLEMENT(S)<span>CREATIVITY</span></h1>
               <h1 className="text">SO</h1>
               <h1 className="text">LET'S CONNECT<span><a href="https://www.linkedin.com/in/simon-yoseph-a98124189/" target="_blank" rel="noopener noreferrer">LET'S CONNECT</a></span></h1>
-
+              </div>
               {/* Social Media Icons */}
               <div className="socialMediaIcons">
                 <ul className="listSocial">
