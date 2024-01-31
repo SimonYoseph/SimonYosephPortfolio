@@ -61,7 +61,11 @@
   
 }
 
-
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
 /* .social .link.twitter {
   background-color: #00ACEE;
   color: white;
