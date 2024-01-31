@@ -1,12 +1,109 @@
 
+
+.simon-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .simon-picture img {
-  width: 500px; /* Adjust the width to your preference */
-  height: 500px; /* Adjust the height to your preference */
-  border-radius: 200%; /* Make the image round */
-  object-fit: cover; /* Ensure the image covers the entire container */
+  width: 100%;
+  max-width: 500px;
+  height: 520px;
+  border-radius: 50%;
+  object-fit: cover;
 }
-.page{
+
+.page {
   color: white;
+  
+  padding: 0 20px; /* Add padding to the sides */
+  box-sizing: border-box; /* Include padding and border in total width/height */
 }
 
+.name-header {
+  display: block; /* Change display to block */
+  text-align: center; /* Center the text */
+  margin: 20px auto; /* Center the header and add margin */
+  font-size: 5vw;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
 
+.under-name {
+  display: block; /* Change display to block */
+  text-align: center; /* Center the text */
+  margin-top: -10px; /* Adjust the margin-top */
+  font-size: 25px;
+  color: #f7ca18;
+}
+
+.under-name1 {
+  display: block; /* Change display to block */
+  text-align: center; /* Center the text */
+  margin-top: -10px; /* Adjust the margin-top */
+  font-size: 25px;
+  color: grey;
+}
+
+.welcome{
+  font-size: 25px;
+}
+
+.label h3{
+  margin: 50px;
+  margin-top: 155px;
+  display: flex;
+  word-spacing: 5px;
+  text-align: center;
+}
+
+.about-header{
+  text-transform: uppercase;
+  font: Sans-serif;
+  text-align: center;
+  letter-spacing: 5px;
+  margin-right: 10px;
+  margin-bottom: 85px;
+}
+section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.iphone {
+  position: absolute;
+  height: 600px;
+}
+
+.widgets {
+  position: absolute;
+  z-index: -1;
+  scale: 0;
+}
+
+#socials {
+  background: linear-gradient(#ff348b, #e30217);
+  border-radius: 30px;
+  aspect-ratio: 1;
+  height: 140px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+  font-size: 30px;
+  font-family: sans-serif;
+  height: 50px;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+}

@@ -33,14 +33,16 @@ const Portfolio = () => {
   }, []);
   return (
     <div className="page">
+      <h1 className="portfolio-header">Portfolio</h1>
     <main>
       <ul>
         <li>
+          
           <article>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
               <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z" />
             </svg>
-
+            
             <h3>Develop.</h3>
             <p>
               I have developed full stack code for various projects. Each project implements features that will satisfy users and allow for convenience in everyday activities.
@@ -85,7 +87,7 @@ const Portfolio = () => {
           </article>
         </li>
       </ul>
-      <h1 style={{ textAlign: 'center' }} className="Travel-Trove effect-3">
+      <h1 className="Travel-Trove effect-3">
   <a href="https://github.com/SimonYoseph/travel-trove-ai" target="_blank" rel="noopener noreferrer">
     Travel Trove AI</a></h1>
 
@@ -121,7 +123,7 @@ const Portfolio = () => {
 
 
 
-<h1 style={{ textAlign: 'center' }} className="MyFit effect-3">
+<h1 className="MyFit effect-3">
   <a href="https://my-fit-webapp.vercel.app" target="_blank" rel="noopener noreferrer">
     MyFit</a></h1>
 
