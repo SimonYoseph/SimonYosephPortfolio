@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css'; 
 import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
 import { faSquareXTwitter, faLinkedin, faGithub,faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faFilePdf } from '@fortawesome/free-solid-svg-icons';

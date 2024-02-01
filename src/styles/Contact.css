@@ -1,11 +1,12 @@
 .contact-header {
   text-transform: uppercase;
-  font-family: Sans-serif; /* Specify the font family */
+  font: Sans-serif; /* Specify the font family */
   text-align: center;
   letter-spacing: 5px;
   margin-bottom: 85px;
-  margin-top: -880px;
+  margin-top: -720px;
   font-size: 35px;
+  color: white;
 }
 
 .social {
@@ -14,6 +15,7 @@
   top: 50%;
   text-align: center;
   transform: translateY(-50%);
+  color: white;
 }
 
 .social .link {
@@ -61,11 +63,7 @@
   
 }
 
-@media only screen and (max-width: 768px) {
-  body {
-    font-size: 14px;
-  }
-}
+
 /* .social .link.twitter {
   background-color: #00ACEE;
   color: white;
