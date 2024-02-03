@@ -194,8 +194,8 @@ const AboutMe = () => {
       </section>
             <div className="label">
 
-              <h3>I was born in Virginia and raised in Maryland and went to highschool in DC. The DMV is my home. My parents are ethiopian and have instilled the culture within me. I can speak Amharic, not well, but I undertsnad it well. 
-                Hobbies of mine are recording and editing videoes whether it is gym related or BTS. I also like to work on my car since it is a 2000 BMW E46.</h3>
+              <h3>I was born in Virginia and raised in Maryland and went to highschool in DC. The DMV is my home. My parents are ethiopian and have instilled the culture within me. I can speak Amharic, not well, but I understand it well. 
+                Hobbies of mine are recording and editing videos whether it is gym related or BTS. I also like to work on my car since it is a 2000 BMW E46.</h3>
        </div>
           </div>
     
