@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
@@ -5,6 +6,8 @@ import App from './components/App';
 import AboutMe from './components/AboutMe';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
+
+
 
 
 ReactDOM.render(
