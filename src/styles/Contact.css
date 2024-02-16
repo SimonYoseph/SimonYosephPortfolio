@@ -63,6 +63,12 @@
   
 }
 
+@media (max-width: 768px) {
+  .contact {
+      margin: 0 3%; /* Adjusted margins for smaller screens */
+  }
+}
+
 
 /* .social .link.twitter {
   background-color: #00ACEE;
