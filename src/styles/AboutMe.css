@@ -107,3 +107,10 @@ a {
   justify-content: center;
   align-items: center;
 }
+
+
+@media (max-width: 768px) {
+  .page {
+      margin: 0 3%; /* Adjusted margins for smaller screens */
+  }
+}

@@ -326,4 +326,9 @@
     text-decoration: underline;
     font-size: 20px;
   }
+  @media (max-width: 768px) {
+    .page {
+        margin: 0 3%; /* Adjusted margins for smaller screens */
+    }
+}
 
