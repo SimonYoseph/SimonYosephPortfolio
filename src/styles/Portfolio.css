@@ -328,7 +328,7 @@
   }
   @media (max-width: 768px) {
     .page {
-        margin: 0 3%; /* Adjusted margins for smaller screens */
+        margin: 0 10%; /* Adjusted margins for smaller screens */
     }
 }
 
