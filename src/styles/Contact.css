@@ -64,8 +64,8 @@
 }
 
 @media (max-width: 768px) {
-  .contact {
-      margin: 0 3%; /* Adjusted margins for smaller screens */
+  .page {
+      margin: 0 10% 10%; /* Adjusted margins for smaller screens */
   }
 }
 

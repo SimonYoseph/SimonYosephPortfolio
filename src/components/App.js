@@ -31,7 +31,7 @@ const App = () => {
 
   return (
     <Router>
-      <div>
+      <div classname= "page">
           <div className={`tab-text-color ${isSticky ? 'sticky' : ''}`}>
             <nav>
               <Link to="/Homepage">Home</Link>
