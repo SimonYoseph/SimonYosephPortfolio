@@ -58,7 +58,8 @@ const Portfolio = () => {
             <h3>Preview.</h3>
             <p>
               All my work is displayed on <a href="https://github.com/SimonYoseph" id="GitHubLink" target="_blank" rel="noopener noreferrer">GitHub</a>. The various projects include Travel Trove AI where individuals can search for flights based on budget and dates. This website also implements a currency converter and language translation tool. <br />
-              Check out <a href="https://my-fit-webapp.vercel.app" id="myFitLink" target="_blank" rel="noopener noreferrer">MyFit</a> where individuals can track their fitness journey.
+              Check out <a href="https://my-fit-webapp.vercel.app" id="myFitLink" target="_blank" rel="noopener noreferrer">MyFit</a> where individuals can track their fitness journey.  Also within my internship project I was able to research, analyze and map 311 and 911 calls in Baltimore called <a href="https://baltimore-crime-predicting.streamlit.app" id="crime-link" target="_blank" rel="noopener noreferrer">Crime</a> and 
+              <a href="https://311mappeddata.streamlit.app" id="grime-link" target="_blank" rel="noopener noreferrer"> Grime</a>.
             </p>
           </article>
         </li>
@@ -159,8 +160,45 @@ const Portfolio = () => {
     <img src="about us.png" alt="" id="about-us"/>
   </div>
 </div>
-</main>
-</div>
+
+  
+<h1 className="BaltimoreDataCorps">
+          <a 
+            href="https://baltimore-crime-predicting.streamlit.app" 
+            id="crime-link" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            Crime
+          </a> 
+          and 
+          <a 
+            href="https://311mappeddata.streamlit.app" 
+            id="grime-link" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            Grime
+          </a>
+        </h1>
+
+        <div className="scroller" data-speed="fast">
+          <ul className="tag-list scroller__inner">
+            <li>Python</li>
+            <li>Pandas Import</li>
+            <li>SQL</li>
+            <li>Streamlit</li>
+          </ul>
+        </div>
+
+        <div className="scroller" data-direction="left" data-speed="fast">
+          <div className="scroller__inner">
+            <img src="crime.png" alt="Crime" id="crime" />
+            <img src="grime.png" alt="Grime" id="grime" />
+          </div>
+        </div>
+  </main>
+  </div>
 );
 };
 

@@ -186,7 +186,7 @@
   /* Infinite Scroll Animation styles */
   
   .scroller {
-    max-width: 600px;
+    max-width: 560px;
     margin: 0 auto; /* Center the scroller horizontally */
   }
   
@@ -331,4 +331,9 @@
     .page {
         margin: 0 10% 10%; /* Adjusted margins for smaller screens */
     }
+
+
+
+
+
   }
