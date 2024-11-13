@@ -57,7 +57,7 @@ const Contact = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="Simon Yoseph Resume.pdf" target="_blank" >
+                    <a href="Simon's Resume.pdf" target="_blank" >
                       <FontAwesomeIcon icon={faFilePdf} />                
                       <span>Insta</span>
                     </a>
