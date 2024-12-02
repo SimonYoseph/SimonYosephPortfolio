@@ -215,7 +215,35 @@ footer {
 
 
 @media (max-width: 768px) {
-  .page {
-      margin: 0 10% 10%; /* Adjusted margins for smaller screens */
+  /* Adjust margins for smaller screens */
+  body {
+    margin: 10px; /* Mobile-friendly margin */
+  }
+  
+  .container {
+    margin: 0 5%; /* Reduce container margin on smaller screens */
+  }
+  
+  .text {
+    font-size: 12vw; /* Adjust text size for mobile */
+  }
+
+  .text a {
+    font-size: 12vw; /* Adjust link size */
+  }
+
+  .socialMediaIcons {
+    bottom: 10px;
+    right: 10px;
+  }
+
+  .socialMediaIcons ul li a {
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+  }
+  
+  footer {
+    font-size: 14px; /* Optional: Adjust footer text for small screens */
   }
 }
