@@ -205,7 +205,7 @@ nav button {
 
   /* Adjust for tabs on mobile */
   nav {
-    flex-direction: column; /* Stack the items vertically */
+    /* flex-direction: column; Stack the items vertically */
     height: auto; /* Allow the height to adjust */
     top: 10px; /* Move the nav closer to the top */
     width: 80%; /* Make the nav narrower */
