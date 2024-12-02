@@ -217,7 +217,7 @@ footer {
 @media (max-width: 768px) {
   /* Adjust margins for smaller screens */
   body {
-    margin: 10px; /* Mobile-friendly margin */
+    margin: 8px; /* Mobile-friendly margin */
   }
   
   .container {
@@ -225,11 +225,11 @@ footer {
   }
   
   .text {
-    font-size: 12vw; /* Adjust text size for mobile */
+    font-size: 8vw; /* Adjust text size for mobile */
   }
 
   .text a {
-    font-size: 12vw; /* Adjust link size */
+    font-size: 8vw; /* Adjust link size */
   }
 
   .socialMediaIcons {
