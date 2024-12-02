@@ -217,7 +217,7 @@ footer {
 @media (max-width: 768px) {
   /* Adjust margins for smaller screens */
   body {
-    margin: 8px; /* Mobile-friendly margin */
+    margin: 10px; /* Mobile-friendly margin */
   }
   
   .container {
@@ -225,22 +225,22 @@ footer {
   }
   
   .text {
-    font-size: 8vw; /* Adjust text size for mobile */
+    font-size: 10vw; /* Adjust text size for mobile */
   }
 
   .text a {
-    font-size: 8vw; /* Adjust link size */
+    font-size: 10vw; /* Adjust link size */
   }
 
   .socialMediaIcons {
-    bottom: 10px;
-    right: 10px;
+    bottom: 8px;
+    right: 8px;
   }
 
   .socialMediaIcons ul li a {
-    width: 35px;
-    height: 35px;
-    font-size: 18px;
+    width: 25px;
+    height: 25px;
+    font-size: 15px;
   }
   
   footer {
