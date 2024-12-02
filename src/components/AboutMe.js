@@ -169,7 +169,7 @@ const AboutMe = () => {
       <div class="name-header"><h2>Simon Yoseph</h2>
           <h1 className ="under-name1">Full Stack </h1>
           <h1 className ="under-name1"> and </h1> 
-          <h1 className ="under-name"> Web Developer</h1>
+          <h1 className ="under-name"> Data Scientist</h1>
         </div>
       
  
@@ -194,8 +194,11 @@ const AboutMe = () => {
       </section>
             <div className="label">
 
-              <h3>I was born in Virginia and raised in Maryland and went to highschool in DC. The DMV is my home. My parents are ethiopian and have instilled the culture within me. I can speak Amharic, not well, but I understand it well. 
-                Hobbies of mine are recording and editing videos whether it is gym related or BTS. I also like to work on my car since it is a 2000 BMW E46.</h3>
+              <h3>My experience in web developement, data science and IT Support have allowed me to grow my technical skills in Python, R, HTML/ CSS, JavaScript, and React.
+                My previous roles at the National Science Foundation and Westat have grew my passion for data visualization and data analysis. 
+                Also, my leadership, ability to work in team environments, and multi-task with mulitple priorites have allowed me to take lead on various projects
+                and deliver accurate results. 
+              </h3>
        </div>
           </div>
     
