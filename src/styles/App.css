@@ -202,6 +202,13 @@ nav button {
     text-align: center; /* Center the text */
   }
 
+  /* Center only the contact tab */
+  .contact-tab {
+    display: block;
+    margin: 0 auto;
+    text-align: center; /* Ensure the text is centered */
+  }
+
   /* Adjust margins for smaller screens */
   body {
     margin: 10px; /* Mobile-friendly margin */
