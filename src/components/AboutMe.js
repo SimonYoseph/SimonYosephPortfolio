@@ -164,10 +164,10 @@ const AboutMe = () => {
     <div className="page">
        <h1 className="about-header">About Me</h1>
       <div className="simon-picture">
-        <img src="simon-pic.jpeg" alt="Profile" />
+        <img src="simon-pic2.jpeg" alt="Profile" />
       </div>
       <div class="name-header"><h2>Simon Yoseph</h2>
-          <h1 className ="under-name1">Full Stack </h1>
+          <h1 className ="under-name1">Full Stack Developer</h1>
           <h1 className ="under-name1"> and </h1> 
           <h1 className ="under-name"> Data Scientist</h1>
         </div>

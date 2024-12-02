@@ -7,10 +7,10 @@
 }
 
 .simon-picture img {
-  width: 100%;
-  max-width: 500px;
-  height: 520px;
-  border-radius: 50%;
+  width: 30%;
+  /* max-width: 350px; */
+  height: 50%;
+  border-radius: 100%;
   object-fit: cover;
 }
 
@@ -34,9 +34,10 @@
 .under-name {
   display: block; /* Change display to block */
   text-align: center; /* Center the text */
-  margin-top: -10px; /* Adjust the margin-top */
+  margin-top: -13px; /* Adjust the margin-top */
   font-size: 25px;
   color: #f7ca18;
+  line-height: 55px;
 }
 
 .under-name1 {
@@ -45,6 +46,7 @@
   margin-top: -10px; /* Adjust the margin-top */
   font-size: 25px;
   color: grey;
+  line-height: 55px;
 }
 
 .welcome{
