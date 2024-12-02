@@ -187,25 +187,9 @@ nav button {
 
 /* Add this to make the icons responsive */
 @media (max-width: 768px) {
-  .socialMediaIcons {
-    bottom: 10px;
-    right: 10px;
-  }
-
-  .socialMediaIcons ul li a {
-    width: 35px;
-    height: 35px;
-    font-size: 18px;
-    line-height: 35px;
-  }
-
-  footer {
-    font-size: 14px; /* Optional: Adjust footer text for small screens */
-  }
-
-  /* Adjust for tabs on mobile */
   nav {
-    /* flex-direction: column; Stack the items vertically */
+    /* Make sure the nav is above the content, but content isn't hidden */
+    z-index: 5; /* Keep navigation above content */
     height: auto; /* Allow the height to adjust */
     top: 10px; /* Move the nav closer to the top */
     width: 80%; /* Make the nav narrower */
@@ -217,16 +201,17 @@ nav button {
     padding: 8px 10px; /* Adjust padding */
     text-align: center; /* Center the text */
   }
-  
+
   /* Adjust margins for smaller screens */
   body {
     margin: 10px; /* Mobile-friendly margin */
+    padding-top: 120px; /* Push content down to avoid overlap with navigation */
   }
-  
+
   .container {
     margin: 0 5%; /* Reduce container margin on smaller screens */
   }
-  
+
   .text {
     font-size: 10vw; /* Adjust text size for mobile */
   }
