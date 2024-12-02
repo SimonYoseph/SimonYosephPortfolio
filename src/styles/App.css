@@ -11,9 +11,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  
 }
-
 
 .text {
   font-size: 9vw;
@@ -34,13 +32,13 @@ body {
   align-items: flex-start;
   justify-content: center;
   position: relative;
-
 }
 
-.text a{
+.text a {
   font-size: 8vw;
   margin-top: -65px;
 }
+
 span {
   position: absolute;
   width: 100%;
@@ -64,7 +62,7 @@ a {
   color: inherit;
 }
 
-.tab-text-color{
+.tab-text-color {
   color: white;
 }
 
@@ -86,44 +84,44 @@ nav {
   backdrop-filter: blur(5px);
   border: 1px solid rgba(255,255,255,.06);
   transition: 1s all cubic-bezier(0.75, 0.82, 0.165, 1) .2s;
-
-  a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 700;
-    display: block;
-    padding: 10px 20px;
-    line-height: 1;
-    font-size: 15px;
-    letter-spacing: 2px;
-    text-transform: lowercase;
-    transition: .3s all cubic-bezier(0.075, 0.82, 0.165, 1) .6s;
-  }
-
-  button {
-    -webkit-appearance: none;
-    background: rgba(0,0,0,.3);
-    backdrop-filter: blur(5px);
-    border: 1px solid rgba(255,255,255,.1);
-    position: absolute;
-    z-index: 99;
-    left: 0;
-    margin: auto;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
-    outline: 0;
-    border: 0;
-    cursor: pointer;
-    transition: .3s all cubic-bezier(0.075, 0.82, 0.165, 1) 0.2s;
-    transform: scale(0);
-  }
 }
 
-/*social media icons/ designs*/
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  display: block;
+  padding: 10px 20px;
+  line-height: 1;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+  transition: .3s all cubic-bezier(0.075, 0.82, 0.165, 1) .6s;
+}
+
+nav button {
+  -webkit-appearance: none;
+  background: rgba(0,0,0,.3);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255,255,255,.1);
+  position: absolute;
+  z-index: 99;
+  left: 0;
+  margin: auto;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  transition: .3s all cubic-bezier(0.075, 0.82, 0.165, 1) 0.2s;
+  transform: scale(0);
+}
+
+/* Social media icons / designs */
 .socialMediaIcons {
   position: fixed;
   bottom: 20px; /* Adjust the distance from the bottom as needed */
@@ -140,7 +138,7 @@ nav {
 
 .socialMediaIcons ul li {
   margin: 0 12px; /* Adjust the spacing between icons */
- color: #fff;
+  color: #fff;
 }
 
 .socialMediaIcons ul li a {
@@ -176,9 +174,9 @@ nav {
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
   /* Instagram color */
 }
+
 .socialMediaIcons ul li:nth-child(6) a {
-  background: #040c65
-  /* Resume color */
+  background: #040c65 /* Resume color */
 }
 
 .socialMediaIcons ul li a:hover {
@@ -200,21 +198,26 @@ nav {
     font-size: 18px;
     line-height: 35px;
   }
-}
 
-footer {
-  color: black;
-  text-align: center;
-  background-color: #ffff;
-  padding: 20px;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
+  footer {
+    font-size: 14px; /* Optional: Adjust footer text for small screens */
+  }
 
+  /* Adjust for tabs on mobile */
+  nav {
+    flex-direction: column; /* Stack the items vertically */
+    height: auto; /* Allow the height to adjust */
+    top: 10px; /* Move the nav closer to the top */
+    width: 80%; /* Make the nav narrower */
+    padding: 10px;
+  }
 
-@media (max-width: 768px) {
+  nav a {
+    font-size: 12px; /* Smaller font for mobile */
+    padding: 8px 10px; /* Adjust padding */
+    text-align: center; /* Center the text */
+  }
+  
   /* Adjust margins for smaller screens */
   body {
     margin: 10px; /* Mobile-friendly margin */
@@ -235,15 +238,5 @@ footer {
   .socialMediaIcons {
     bottom: 14px;
     right: 10px;
-  }
-
-  .socialMediaIcons ul li a {
-    width: 25px;
-    height: 25px;
-    font-size: 15px;
-  }
-  
-  footer {
-    font-size: 14px; /* Optional: Adjust footer text for small screens */
   }
 }
