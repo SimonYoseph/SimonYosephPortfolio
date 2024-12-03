@@ -47,11 +47,10 @@ const App = () => {
                 <h1 className="text">ONE WHO CREATES<span>TO EXPAND</span></h1>
                 <h1 className="text">AND IMPLEMENT(S)<span>CREATIVITY</span></h1>
                 <h1 className="text">SO</h1>
-                <h1 className="text">
-                  LET'S CONNECT
+                <h1 className="text">LET'S
                   <span>
                     <a href="https://www.linkedin.com/in/simon-yoseph-a98124189/" target="_blank" rel="noopener noreferrer">
-                      LET'S CONNECT
+                      CONNECT
                     </a>
                   </span>
                 </h1>
