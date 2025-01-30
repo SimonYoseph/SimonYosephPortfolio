@@ -45,12 +45,35 @@ span {
   height: 100%;
   background-color: #4246ce;
   color: #0D0D0D;
-  clip-path: polygon(0 50%, 100% 50%, 100% 50%, 0 50%);
-  transform-origin: center;
+  clip-path: polygon(0 150%, 100% 50%, 100% 50%, 0 150%);
+  transform-origin: left;
   transition: all cubic-bezier(.1,.5,.5,1) 0.4s;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+
+span a {
+  margin-bottom: 35px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  text-shadow: 
+    -1px -1px 0 blue,  
+     1px -1px 0 blue,
+    -1px  1px 0 blue,
+     1px  1px 0 blue; /* Creates a blue outline effect */
+  text-decoration: none;
+}
+
+span a:hover {
+  color: rgb(4, 4, 63);
+  text-shadow: 
+    -1px -1px 0 white,  
+     1px -1px 0 white,
+    -1px  1px 0 white,
+     1px  1px 0 white; /* White outline on hover */
 }
 
 .text:hover > span {
