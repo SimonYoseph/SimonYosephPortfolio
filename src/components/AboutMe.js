@@ -159,6 +159,7 @@ const AboutMe = () => {
     });
   }, []); // Empty dependency array ensures this effect runs once after the initial render
 
+  
   return (
     
     <div className="page">
@@ -200,7 +201,30 @@ const AboutMe = () => {
                 and deliver accurate results. 
               </h3>
        </div>
-          </div>
+
+
+     {/* Video Showcase Section */}
+     <div className="guitar">
+        <h1> My Hobbies</h1>
+        <h2> Guitar</h2>
+        <video width="560" height="315" controls>
+        <source src="/guitarVid1.mp4" type="video/mp4" />
+    </video>
+    <img src="guitars.jpg" />
+      </div>
+
+      <div className="vinyl-collecting">
+        <h2> Vinyl Collecting</h2>
+        <img src="vinyls.jpg" />
+        <img src="gunna.jpg" />
+      </div>
+
+
+
+
+
+    </div>
+          
     
   );
   

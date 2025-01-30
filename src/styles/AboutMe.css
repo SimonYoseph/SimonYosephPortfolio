@@ -1,11 +1,8 @@
-
-
 .simon-picture {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .simon-picture img {
   width: 30%;
   /* max-width: 350px; */
@@ -13,14 +10,11 @@
   border-radius: 100%;
   object-fit: cover;
 }
-
 .page {
   color: white;
-  
   padding: 0 20px; /* Add padding to the sides */
   box-sizing: border-box; /* Include padding and border in total width/height */
 }
-
 .name-header {
   display: block; /* Change display to block */
   text-align: center; /* Center the text */
@@ -30,7 +24,6 @@
   text-transform: uppercase;
   letter-spacing: 6px;
 }
-
 .under-name {
   display: block; /* Change display to block */
   text-align: center; /* Center the text */
@@ -39,7 +32,6 @@
   color: #f7ca18;
   line-height: 55px;
 }
-
 .under-name1 {
   display: block; /* Change display to block */
   text-align: center; /* Center the text */
@@ -48,11 +40,9 @@
   color: grey;
   line-height: 55px;
 }
-
 .welcome{
   font-size: 25px;
 }
-
 .label h3{
   margin: 50px;
   margin-top: 155px;
@@ -60,7 +50,6 @@
   word-spacing: 5px;
   text-align: center;
 }
-
 .about-header{
   text-transform: uppercase;
   font: Sans-serif;
@@ -77,18 +66,15 @@ section {
   height: 100vh;
   width: 100vw;
 }
-
 .iphone {
   position: absolute;
   height: 600px;
 }
-
 .widgets {
   position: absolute;
   z-index: -1;
   scale: 0;
 }
-
 #socials {
   background: linear-gradient(#ff348b, #e30217);
   border-radius: 30px;
@@ -99,7 +85,6 @@ section {
   align-items: center;
   flex-wrap: wrap;
 }
-
 a {
   text-decoration: none;
   font-size: 30px;
@@ -109,10 +94,74 @@ a {
   justify-content: center;
   align-items: center;
 }
-
-
 @media (max-width: 768px) {
   .page {
-      margin: 0 10% 10%; /* Adjusted margins for smaller screens */
+    margin: 0 10% 10%; /* Adjusted margins for smaller screens */
   }
+}
+
+/* New Video Section Styles */
+.guitar {
+  text-align: center;
+  margin: 50px 0;
+  padding: 40px 0;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.guitar h1 {
+  margin-bottom: 50px; /* Adds space below the text */
+  margin-top: 65px;
+}
+
+.guitar h2 {
+  margin-bottom: 30px; /* Space below "Guitar" */
+}
+
+.guitar iframe,
+.guitar video,
+.guitar img {
+  width: 560px;
+  height: 590px;
+  object-fit: cover; /* Ensure aspect ratio is maintained */
+  margin-bottom: 20px; /* Space between items */
+}
+
+.vinyl-collecting {
+  text-align: center;
+  margin: 50px 0;
+  padding: 40px 0;
+}
+
+.vinyl-collecting img {
+  width: 100%; /* Ensure the images are responsive */
+  max-width: 560px; /* Optional: Restrict the image width */
+  height: auto;
+  margin-bottom: 70px; /* Adds space between the images */
+  transition: transform 1s ease-in-out, z-index 0s; /* Slow down the transition speed */
+}
+
+.vinyl-collecting h1 {
+  margin-bottom: 50px; /* Adds space below the text */
+  margin-top: 65px;
+}
+
+.vinyl-collecting h2 {
+  margin-bottom: 30px; /* Space below "Guitar" */
+}
+
+.vinyl-collecting iframe,
+.vinyl-collecting video,
+.vinyl-collecting img {
+  width: 560px;
+  height: 590px;
+  object-fit: cover; /* Ensure aspect ratio is maintained */
+  margin-bottom: 20px; /* Space between items */
+}
+
+/* Hover effect */
+.vinyl-collecting img:hover {
+  transform: scale(1.1); /* Increase the size of the hovered image */
+  z-index: 10; /* Bring the hovered image to the front */
 }
