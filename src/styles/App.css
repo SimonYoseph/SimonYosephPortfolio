@@ -14,12 +14,12 @@ body {
 }
 
 .text {
-  font-size: 9vw;
+  font-size: 8vw;
   font-weight: bold;
   letter-spacing: -.01em;
   line-height: 100%;
   margin: 0;
-  width: 100%;
+  width: 80%;
   color: rgb(182, 182, 182, 0.2);
   background: linear-gradient(to right, #b6b6b6, #b6b6b6) no-repeat;
   -webkit-background-clip: text;
@@ -36,7 +36,11 @@ body {
 
 .text a {
   font-size: 8vw;
-  /* margin-top: -65px; */
+  margin-bottom: 100px;
+}
+
+.text span {
+  font-size: 85%; /* Adjust the size as needed */
 }
 
 span {
