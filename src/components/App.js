@@ -43,7 +43,7 @@ const App = () => {
           <Route exact path="/" render={() => (
             <div className="container">
               <div className="text-align">
-                <h1 className="text">I AM <span>SIMON YOSEPH,</span></h1>
+                <h1 className="text">I AM <span>SIMON YOSEPH.</span></h1>
                 <h1 className="text">ONE WHO CREATES<span>TO EXPAND</span></h1>
                 <h1 className="text">AND IMPLEMENT(S)<span>CREATIVITY</span></h1>
                 <h1 className="text">SO</h1>
