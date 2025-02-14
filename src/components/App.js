@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
-import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, Link, useLocation } from 'react-router-dom';
 import { faSquareXTwitter, faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faFilePdf } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -8,6 +8,13 @@ import AboutMe from './AboutMe';
 import Contact from './Contact';
 import Portfolio from './Portfolio';
 import '../styles/App.css';
+
+// Component to set background only for homepage
+const PageWrapper = ({ children }) => {
+  const location = useLocation();
+  return <div className={location.pathname === '/' ? 'homepage' : 'default'}>{children}</div>;
+};
+
 
 const App = () => {
   const [isSticky, setIsSticky] = useState(false);
@@ -26,6 +33,7 @@ const App = () => {
 
   return (
     <Router>
+      <PageWrapper>
       <div className="page">
         {/* Navigation */}
         <div className={`tab-text-color ${isSticky ? 'sticky' : ''}`}>
@@ -106,6 +114,7 @@ const App = () => {
           <Route path="/portfolio" component={Portfolio} />
         </Switch>
       </div>
+      </PageWrapper>
     </Router>
   );
 };

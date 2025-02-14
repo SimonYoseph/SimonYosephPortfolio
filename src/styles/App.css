@@ -7,11 +7,31 @@ body {
 }
 
 .container {
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
 }
+
+/* Default background for all pages */
+.default {
+  background: none; /* or any default background */
+}
+
+/* Homepage-specific background */
+.homepage {
+  background-image: url('/homepageImage.jpg'); /* Replace with correct path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  min-height: 100vh;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add a subtle shadow for readability */
+
+}
+
 
 .text {
   font-size: 8vw;
@@ -20,8 +40,8 @@ body {
   line-height: 100%;
   margin: 0;
   width: 80%;
-  color: rgb(182, 182, 182, 0.2);
-  background: linear-gradient(to right, #b6b6b6, #b6b6b6) no-repeat;
+  color: rgba(182, 182, 182, 0.775);
+  background: linear-gradient(to right, #b6b6b6, #b6b6b6c3) no-repeat;
   -webkit-background-clip: text;
   background-clip: text;
   background-size: 0%;
