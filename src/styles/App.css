@@ -29,7 +29,6 @@ body {
   width: 100%;
   min-height: 100vh;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add a subtle shadow for readability */
-  background-attachment: fixed; 
 
 }
 
@@ -294,7 +293,7 @@ nav button {
       width: 100vw;
       display: flex; /* Ensures text is placed over image */
       flex-direction: column;
-      align-items: center;
+      align-items: right;
       justify-content: center;
       text-align: center;
       color: white; /* Ensures text is visible */
