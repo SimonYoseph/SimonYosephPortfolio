@@ -283,10 +283,19 @@ nav button {
   }
 
   @media (max-width: 480px) {
-    
+
     .homepage {
-      background-size: cover;
-      min-height: 100vh;
+     background-image: url('/homepageImage.jpg');
+        background-size: contain;  /* Ensures the entire image fits inside */
+        background-repeat: no-repeat;
+        background-position: top center; /* Keeps image aligned */
+        background-attachment: fixed;
+        min-height: 100vh;
+        width: 100vw; /* Ensures the image spans full width */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
  
     }
 
