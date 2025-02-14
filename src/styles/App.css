@@ -29,6 +29,7 @@ body {
   width: 100%;
   min-height: 100vh;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add a subtle shadow for readability */
+  /* background-attachment: fixed;  */
 
 }
 
@@ -280,4 +281,36 @@ nav button {
     bottom: 14px;
     right: 10px;
   }
+
+
+  .homepage {
+    background-position: center center;
+    background-size: cover; /* Ensure the background image scales well */
+    min-height: 100vh; /* Keep full viewport height */
+  }
+
+  .text-align h1 {
+    font-size: 1.5rem;
+    text-align: center; /* Center-align text for mobile */
+    margin: 5px 0;
+  }
+
+  .socialMediaIcons ul li {
+    margin: 10px 0; /* Space out icons for smaller screens */
+  }
+
+  /* Very Small Screens (e.g., Portrait phones) */
+@media (max-width: 480px) {
+  .homepage {
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+  }
+
+  /* Adjust text further for small screens */
+  .text-align h1 {
+    font-size: 1.2rem;
+  }
+}
+
 }
