@@ -21,11 +21,11 @@ body {
 
 /* Homepage-specific background */
 .homepage {
-  background-image: url('/homepageImage.jpg'); /* Replace with correct path */
+  background-image: url('/homepageImage3.png'); /* Replace with correct path */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   min-height: 100vh;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add a subtle shadow for readability */
@@ -238,7 +238,7 @@ nav button {
 @media (max-width: 768px) {
 
   .homepage {
-    background-image: url('/homepageImage.jpg');
+    background-image: url('/homepageImage3.png');
     background-size: cover; /* Makes sure the image covers the entire viewport */
     background-position: left center; 
     background-repeat: no-repeat;
@@ -303,7 +303,7 @@ nav button {
   @media (max-width: 480px) {
 
     .homepage {
-      background-image: url('/homepageImage.jpg');
+      background-image: url('/homepageImage3.png');
       background-size: cover; /* Makes sure the image covers the entire viewport */
       background-position: left center; 
       background-repeat: no-repeat;
