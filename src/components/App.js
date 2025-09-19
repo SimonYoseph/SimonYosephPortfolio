@@ -1,3 +1,5 @@
+import { SpeedInsights } from "@vercel/speed-insights/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import React, { useEffect, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import { BrowserRouter as Router, Route, Switch, Link, useLocation } from 'react-router-dom';
@@ -8,6 +10,7 @@ import AboutMe from './AboutMe';
 import Contact from './Contact';
 import Portfolio from './Portfolio';
 import '../styles/App.css';
+
 
 // Component to set background only for homepage
 const PageWrapper = ({ children }) => {
