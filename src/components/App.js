@@ -1,4 +1,3 @@
-import { SpeedInsights } from "@vercel/speed-insights/react"
 import React, { useEffect, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import { BrowserRouter as Router, Route, Switch, Link, useLocation } from 'react-router-dom';
